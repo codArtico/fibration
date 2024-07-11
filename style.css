@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'MonumentExtended';
+    src: url('fonts/MonumentExtended-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --fonte-destaque: 'MonumentExtended', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav > a> img{
+    width: 200px;
+}
+
+nav > div{
+    gap:10px
+}
+
+nav div > a#login{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: var(--fonte-destaque);
+    text-transform: uppercase;
+}
+#login:hover{
+    color: #00AFEF;
+    text-decoration: none;
+    text-align: right;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+
+nav > div > a#signup{
+    color: #00AFEF;
+    text-decoration: none;
+    text-align: right;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: var(--fonte-destaque);
+    text-transform: uppercase;
+}
+
+nav > div > a#signup:hover{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #00AFEF;
+    transition: 0.6s;
+    
+}
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+div#inicial{
+    background-image: url('imagens/bg1.png');
+    padding: 5%;
+}
+
+div#inicial>img{
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+}
+h1{
+    padding: 15px;
+    line-height: 0.5;
+    background: linear-gradient(to bottom, #ffffff, #7f7f7f);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight: 300px;
+    font-size: 80px;
+    transition-duration: 0.5s;
+}
+
+
+
+h1>a{
+    color: transparent;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #00AFEF, #0f5571);
+    background-clip: text;
+    transition-duration: 0.5s;
+}
+
+div#pag2{
+    
+    background-image: url('imagens/bg2.jpg');
+    padding: 15%;
+    background-position: center center;
+}
+
+div#pag2>h1{
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+div#pag2>h1>span{
+    background: linear-gradient(to bottom, #00AFEF, #0f5571);
+    background-clip: text;
+    color: transparent;
+    background-color: aqua;
+}
+
+h1>a:hover{
+    color: #69d7ff;
+    transition-duration: 0.5s;
+}
+
