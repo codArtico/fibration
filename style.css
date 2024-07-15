@@ -202,6 +202,13 @@ div#pag2>h1{
     margin: 10px;
     width: 250px;
     color: white;
+    transition-duration: 0.5s;
+}
+
+.plan:hover {
+    background-color: var(--cor-primaria);
+    transition-duration: 0.5s;
+    transform: translateY(-15px)
 }
 
 footer {
